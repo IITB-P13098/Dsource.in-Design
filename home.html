@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   </head>
   
   <body>
@@ -20,18 +24,15 @@
                 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="<?php echo base_url(); ?>">
-                <img src="http://www.dsource.in/d_layout/images/d-source-logo45_4.png" width="120">
+                <!-- <img src="http://www.dsource.in/d_layout/images/d-source-logo45_4.png"> -->
+                D&#8217;Source
               </a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              
-              <ul class="nav navbar-nav">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-              </ul>
-              
+
               <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About</a></li>
                 <li>
                   <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
@@ -40,8 +41,15 @@
                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                   </form>
                 </li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Case study</a></li>
+                <li><a href="#">Showcase</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Videos</a></li>
               </ul>
             </div>
         </div>
@@ -51,266 +59,158 @@
     <section class="main">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
 
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="http://placehold.it/1200x300&text=A">
-                  <div class="carousel-caption">
-                    My First Animation - Introductory
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="http://placehold.it/1200x300&text=B">
-                  <div class="carousel-caption">
-                    Block Printing - Ahmedabad - Textile Decorating Technique
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="http://placehold.it/1200x300&text=C">
-                  <div class="carousel-caption">
-                    Lemon Design - Strategic Branding and Design
-                  </div>
-                </div>
-              </div>
-
-              <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
+          <div class="col-md-8">
+            <img class="img-responsive" src="assets/img/780.jpg">
+          </div>
+          <div class="col-md-4">
+            <small>RANDOM ARTICLE</small>
+            <h2><a href="#">Indian Games - Culture of Play</a></h2>
+            <p>Design Course</p>
           </div>
 
           <div class="col-sm-12">
-            <h1>Courses</h1>
+            <h2>Courses</h2>
           </div>
 
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+          <div class="clearfix">
+            <div class="col-sm-6">
+              <div class="media"></div>
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="assets/img/image_course.jpeg">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">My First Animation - Introductory</a></h4>
+                  <p>
+                    Design Course
+                  </p>
+                  <p>
+                    <a href="#">Professor Sumant Rao</a> and <a href="#">Sachin Meshram</a><br/>
+                    <a href="#">Industrial Design Centre (IDC), IIT Bombay</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="media"></div>
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="assets/img/image_course (1).jpeg">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">Product Drawing: Representation of Objects</a></h4>
+                  <p>
+                    Design Course
+                  </p>
+                  <p>
+                    <a href="#">Prof. K. Ramachandran</a><br/>
+                    <a href="#">Industrial Design Centre (IDC), IIT Bombay</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+          <div class="clearfix">
+            <div class="col-sm-6">
+              <div class="media"></div>
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="assets/img/image_course 2.jpeg">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">My First Animation - Introductory</a></h4>
+                  <p>
+                    Design Course
+                  </p>
+                  <p>
+                    <a href="#">Professor Sumant Rao</a> and <a href="#">Sachin Meshram</a><br/>
+                    <a href="#">Industrial Design Centre (IDC), IIT Bombay</a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-12">
-            <h1>Resources</h1>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+            <div class="col-sm-6">
+              <div class="media"></div>
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="assets/img/image_course (1) 2.jpeg">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">Product Drawing: Representation of Objects</a></h4>
+                  <p>
+                    Design Course
+                  </p>
+                  <p>
+                    <a href="#">Prof. K. Ramachandran</a><br/>
+                    <a href="#">Industrial Design Centre (IDC), IIT Bombay</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-sm-12">
-            <h1>Case Studies</h1>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="http://placehold.it/400x400" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-              </div>
-            </div>
+            <a href="#">Show all</a>
           </div>
 
           <hr>
 
           <div class="col-sm-12">
-            <h1>Featured</h1>
+            <h2>Featured</h2>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
+          <div class="clearfix">
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img class="img-responsive" src="assets/img/image_course (2).jpeg">
+                <h5>Paper Relief</h5><br/>
+              </a>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img src="assets/img/image_course (4).jpeg">
+                <h5>Calligraphy</h5><br/>
+              </a>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img src="assets/img/image_course (5).jpeg">
+                <h5>Ergonomics</h5><br/>
+              </a>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img src="assets/img/image_course (6).jpeg">
+                <h5>Basic Texturing - Part 1</h5><br/>
+              </a>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <div class="thumbnail">
-              <img src="http://placehold.it/180x180" alt="...">
-              <div class="caption">
-                <h3>Title</h3>
-              </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img src="assets/img/image_course (7).jpeg">
+                <h5>Clay Animation Module - 4</h5><br/>
+              </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <a href="#">
+                <img src="assets/img/image_course (3).jpeg">
+                <h5>Exposure, Aperture and Depth of Field</h5><br/>
+              </a>
             </div>
           </div>
 
         </div>
       </div>
     </section>
-    <hr>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <p class="muted credit">Example courtesy Footer.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                Cras just
-              </a>
-              <a href="#" class="list-group-item">Dapibus</a>
-              <a href="#" class="list-group-item">Morbi</a>
-              <a href="#" class="list-group-item">Porta</a>
-              <a href="#" class="list-group-item">Veros</a>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                Cras just
-              </a>
-              <a href="#" class="list-group-item">Dapibus</a>
-              <a href="#" class="list-group-item">Morbi</a>
-              <a href="#" class="list-group-item">Porta</a>
-              <a href="#" class="list-group-item">Veros</a>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                Cras just
-              </a>
-              <a href="#" class="list-group-item">Dapibus</a>
-              <a href="#" class="list-group-item">Morbi</a>
-              <a href="#" class="list-group-item">Porta</a>
-              <a href="#" class="list-group-item">Veros</a>
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </footer>
   </body>
 
 </html>
