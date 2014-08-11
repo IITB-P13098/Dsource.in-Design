@@ -10,20 +10,46 @@ header .navbar-form { margin-top: 18px; }*/
 header .navbar {
   background-color: transparent;
   border-color: transparent;
-  /*background-image: url(../img/rainbow-1a-f.jpg);
-  background-position: center center;
-  background-size: cover;*/
-}
-
-header .navbar .container {
   background-image: url(../img/rainbow-1a-f.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-.navbar-brand { color: #289CFF !important; font-weight: 100; font-size: 40px; }
-@media (min-width: 1200px) {
+/*header .navbar .container {
+  background-image: url(../img/rainbow-1a-f.jpg);
+  background-position: center center;
+  background-size: cover;
+}*/
+
+header .navbar-brand {
+  color: #289CFF !important; font-weight: 100; font-size: 40px;
+  height: auto;
+  padding: 25px 15px;
 }
+
+@media (min-width: 768px) {
+  header .navbar-nav>li>a {
+    padding-top: 33px;
+    padding-bottom: 17px;
+  }
+}
+
+header .navbar-toggle {
+  padding: 18px 10px;
+}
+
 
 body { font-family: 'Open Sans', serif; font-weight: 400; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 400; }
+
+.add-on .input-group-btn > .btn {
+  /*border-left-width:0;left:-2px;*/
+  box-shadow: none;
+  -webkit-box-shadow:  none;
+}
+/* stop the glowing blue shadow */
+.add-on .form-control {
+ box-shadow: none;
+ -webkit-box-shadow: none; 
+ border-color: #ccc; 
+}
