@@ -4,7 +4,7 @@
   }
 }
 
-.text-brand { color: #289CFF; }
+.text-brand { color: #25B0E5; }
 
 header .navbar {
   background-color: transparent;
@@ -23,7 +23,7 @@ header .navbar {
 }*/
 
 header .navbar-brand {
-  color: #289CFF !important; font-weight: 100; font-size: 40px;
+  color: #25B0E5 !important; font-weight: 100; font-size: 40px;
   height: auto;
   padding: 25px 15px;
 }

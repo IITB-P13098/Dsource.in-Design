@@ -32,7 +32,7 @@
     "@headings-font-family": "inherit",
     "@headings-font-weight": "100",
     "@headings-line-height": "1.1",
-    "@headings-color": "inherit",
+    "@headings-color": "#25B0E5",
     "@icon-font-path": "\"../fonts/\"",
     "@icon-font-name": "\"glyphicons-halflings-regular\"",
     "@icon-font-svg-id": "\"glyphicons_halflingsregular\"",
@@ -419,5 +419,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=cd15a299de318b724885"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=ea6cf4b9aa7666e4fbd0"
 }
