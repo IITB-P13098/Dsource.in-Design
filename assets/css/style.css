@@ -34,10 +34,6 @@ header .navbar-brand {
     padding-top: 35px;
     padding-bottom: 15px;
   }
-
-  header .navbar-right>li>a {
-    padding-top: 10px;
-  }
 }
 
 @media (min-width: 992px) {
