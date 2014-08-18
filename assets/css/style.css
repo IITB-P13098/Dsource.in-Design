@@ -4,14 +4,12 @@
   }
 }
 
-.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { background-color: #F69E64; }
-a.list-group-item, a.list-group-item:hover { color: #B84A01; }
-
 .text-brand { color: #289CFF; }
 
 header .navbar {
   background-color: transparent;
   /*border-color: transparent;*/
+  border-radius: 0;
   background-image: url(../img/rainbow-1a-f.jpg);
   background-position: center center;
   background-size: cover;
@@ -48,19 +46,8 @@ header .navbar-brand {
   }
 }
 
-
 header .navbar-toggle {
   padding: 18px 10px;
-}
-
-.add-on .input-group-btn > .btn {
-  box-shadow: none;
-  -webkit-box-shadow:  none;
-}
-.add-on .form-control {
- box-shadow: none;
- -webkit-box-shadow: none; 
- border-color: #ccc; 
 }
 
 
@@ -74,12 +61,6 @@ header .navbar-toggle {
 .search-bar .input-group-addon {
   /*background-color: transparent;*/
   /*border: none;*/
-}
-
-
-.product-side-list .list-group-item {
-  border-radius: 0 !important;
-  border: none;
 }
 
 footer {
