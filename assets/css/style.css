@@ -5,6 +5,7 @@
 }
 
 .text-brand { color: #25B0E5; }
+.text-gray {color : #555; }
 
 header .navbar {
   background-color: transparent;
