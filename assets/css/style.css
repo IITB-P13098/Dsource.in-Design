@@ -1,16 +1,9 @@
-body { font-family: 'Open Sans', serif; font-weight: 400; }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 100; }
-
 @media (min-width: 1200px) {
   .container {
     width: 960px;
   }
 }
 
-/*header .navbar-nav>li>a { line-height: 40px; }
-header .navbar-form { margin-top: 18px; }*/
-
-a { color: #B84A01; }
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { background-color: #F69E64; }
 a.list-group-item, a.list-group-item:hover { color: #B84A01; }
 
