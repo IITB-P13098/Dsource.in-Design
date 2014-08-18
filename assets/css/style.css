@@ -63,6 +63,10 @@ header .navbar-toggle {
 ul.product-side-list>li>a {
   padding: 10px 8px;
 }
+ul.product-side-list>li.active>a, ul.product-side-list>li.active>a:hover, ul.product-side-list>li.active>a:focus {
+color: #fff;
+background-color: #F69E64;
+}
 
 footer {
   background-image: url(../img/rainbow-1a-ff.jpg);
