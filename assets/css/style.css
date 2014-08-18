@@ -64,6 +64,10 @@ header .navbar-toggle {
   /*border: none;*/
 }
 
+ul.product-side-list>li>a {
+  padding: 10px 8px;
+}
+
 footer {
   background-image: url(../img/rainbow-1a-ff.jpg);
   background-position: center center;
