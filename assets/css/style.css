@@ -7,6 +7,36 @@
 .text-brand { color: #25B0E5; }
 .text-gray {color : #555; }
 
+/* http://www.mademyday.de/css-height-equals-width-with-pure-css.html */
+.box{
+  position: relative;
+  /*width: 50%;*/   /* desired width */
+}
+.box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
+}
+.content{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.ratio2_1:before{
+  padding-top: 50%;
+}
+.ratio1_2:before{
+  padding-top: 200%;
+}
+.ratio4_3:before{
+  padding-top: 75%;
+}
+.ratio16_9:before{
+  padding-top: 56.25%;
+}
+
 header .navbar {
   background-color: transparent;
   /*border-color: transparent;*/
