@@ -99,6 +99,7 @@ header .navbar-toggle {
     opacity:1;
     z-index:1;
 }
+.carousel-caption { padding-top: 10px; padding-bottom: 0px; }
 
 .search-bar .form-control { /* stop the glowing blue shadow */
  box-shadow: none;
