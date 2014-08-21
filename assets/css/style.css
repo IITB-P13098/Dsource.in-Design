@@ -121,6 +121,12 @@ color: #fff;
 background-color: #F69E64;
 }
 
+.index-page-title .media-heading {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100px;
+}
+
 footer {
   background-image: url(../img/rainbow-1a-ff.jpg);
   background-position: center center;
