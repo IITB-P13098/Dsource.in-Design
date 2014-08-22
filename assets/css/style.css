@@ -7,6 +7,8 @@
 .text-brand { color: #25B0E5; }
 .text-gray {color : #555; }
 
+.text-justify { text-align: justify }
+
 /* http://www.mademyday.de/css-height-equals-width-with-pure-css.html */
 .box{
   position: relative;
