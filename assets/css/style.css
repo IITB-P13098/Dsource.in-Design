@@ -125,6 +125,7 @@ background-color: #F69E64;
   display: table-cell;
   vertical-align: bottom;
   height: 100px;
+  line-height: 1.5;
 }
 
 footer {
