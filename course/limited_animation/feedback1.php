@@ -1,0 +1,202 @@
+<?php
+session_start();
+ob_start();
+?>
+<!doctype html>
+
+<html lang="en">
+  
+  <head>
+    <title>D'source Digital Online Learning Environment for Design: Courses, Resources, Case Studies, Galleries, Videos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is for Google Analitics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-22370778-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+<!-- this is for Google Analitics -->
+    <script type="text/javascript" src="../../assets/plugin/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/plugin/bootstrap-3.2.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="../../assets/plugin/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+
+    <link href="../../assets/font/open-sans/stylesheet.css" rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    
+ <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon" />
+ <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon" />
+  </head>
+  
+  <body>
+    <header>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">
+              <!-- <img src="http://www.dsource.in/d_layout/images/d-source-logo45_4.png"> -->
+              D&#8217;source
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-right navbar-nav">
+             <li><a href="../../course/index.html">Courses</a></li>
+              <li><a href="../../resource/index.html">Resources</a></li>
+              <li><a href="../../case-study/index.html">Case study</a></li>
+              <li><a href="../../showcase/index.html">Showcase</a></li>
+              <li><a href="../../gallery/index.html">Gallery</a></li>
+              <li><a href="../../video/index.html">Videos</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div class="container">
+
+        <div class="row search-bar">
+          <div class="col-md-push-7 col-md-5">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <br>
+          <div class="row">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Course</a></li>
+              <li><a href="index.html">Limited Animation</a></li>
+              <li>Comments and Feedback</li>
+            </ol>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/170.jpg" class="img-responsive">
+          </div>
+          <div class="col-sm-9">
+             <p>Design Course on</p>
+             <h3 class="media-heading text-gray">Limited Animation</h3>
+            <p>
+            Budget Cutting & Time Saving Technique<br/>
+            by<br/>
+            <a href="http://www.idc.iitb.ac.in/phani/bio.html" target="_blank">Professor Phani Tetali</a> and <a href="mailto:puluphidi@gmail.com">Phidi Pulu</a><br/>
+            <a href="http://www.idc.iitb.ac.in/" target="_blank">Industrial Design Centre (IDC), IIT Bombay</a>
+            </p>
+     <div>
+              <img src="images/60.jpg">
+              <span style="vertical-align: bottom;">Contact:</span>
+            </div>  
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row index-page-title">
+          <div class="col-sm-9 col-sm-push-3">
+          <?php
+$page_id = "456";
+$path_to_comments_folder = "../../dcom/comments/";
+define ('IN_COMMENTICS', 'true'); //no need to edit this line
+require $path_to_comments_folder . "includes/commentics.php"; //no need to edit this line
+?>  
+          </div>
+
+          <div class="col-sm-3 col-sm-pull-9">
+            <ul class="nav nav-pills nav-stacked product-side-list">
+              <li><a href="index.html"><img src="images/16.jpg"> Index</a></li>
+              <li><a href="introduction.html"><img src="images/16.jpg"> Introduction</a></li>
+              <li><a href="history.html"><img src="images/16.jpg"> History</a></li>
+              <li><a href="development.html"><img src="images/16.jpg"> Development</a></li>
+              <li><a href="techniques.html"><img src="images/16.jpg"> Techniques</a></li>
+              <li><a href="references.html"><img src="images/16.jpg"> References</a></li>
+              <li><a href="video.html"><img src="images/16.jpg"> Video</a></li>
+              <li><a href="credits.html"><img src="images/16.jpg"> Credits</a></li>
+              <li><a href="contact.html"><img src="images/16.jpg"> Contact us</a></li>	                            
+              <li class="active"><a href="#"><img src="images/16.jpg"> Comments and Feedback</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <hr>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+            <h3 class="text-brand"><a href="../../index.html"  style=" color:#25B0E5; font-weight: 0; font-size: 24px;">D&#8217;source</a></h3>
+            <p class="muted credit">Creating Digital-learning Environment for Design.</p>
+            <br>
+          </div>
+
+          <div class="col-sm-12 col-md-5">
+            <form role="form">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Suscribe to Newsletters</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-sm btn-default">Suscribe</button>
+            </form>
+            <br>
+          </div>
+
+          <div class="col-sm-12 col-md-1"></div>
+
+          <div class="col-sm-4 col-md-2">
+            <ul class="footer-links">
+               <li><a href="../../course/index.html">Courses</a></li>
+              <li><a href="../../resource/index.html">Resources</a></li>
+              <li><a href="../../case-study/index.html">Case study</a></li>
+              <li><a href="../../showcase/index.html">Showcase</a></li>
+              <li><a href="../../gallery/index.html">Gallery</a></li>
+              <li><a href="../../video/index.html">Videos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4 col-md-2">
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Sakshat Initiative</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4 col-md-2">
+            <ul class="footer-links">
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+    </footer>
+  </body>
+
+</html>
